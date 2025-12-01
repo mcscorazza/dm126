@@ -5,10 +5,10 @@
 // e exiba o resultado na tela. Não é necessário ler a nota na entrada.
 // ----------------------------------------------------------------------------
 
-var nota1: Double = 85.5
-var nota2: Double = 63.2
-var nota3: Double = 97.2
+let nota1: Double = 85.5
+let nota2: Double = 63.2
+let nota3: Double = 97.2
 
-var media = (nota1 + nota2 + nota3) / 3
+let media = (nota1 + nota2 + nota3) / 3
 
 print("A média das 3 notas é: \(media)")

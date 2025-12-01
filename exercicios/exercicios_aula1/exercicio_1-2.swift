@@ -8,7 +8,7 @@
 // Temperatura em Fahrenheit: y oC”
 // ----------------------------------------------------------------------------
 
-var tempC = -40.0
-var tempF = (tempC * 9 / 5) + 32
+let tempC = -40.0
+let tempF = (tempC * 9 / 5) + 32
 
 print("Temperatura em Celsius: \(tempC) °C\nTemperatura em Fahrenheit: \(tempF) °F")
