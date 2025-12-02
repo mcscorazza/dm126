@@ -1,8 +1,9 @@
-# DM126 - Desenvolvimento de Aplicativos em Swift para iOS
+# DM126
+## Desenvolvimento de Aplicativos em Swift para iOS
 
 Este repositório armazena os exercícios práticos e códigos desenvolvidos durante a disciplina **DM126**, focado no aprendizado da linguagem **Swift** e desenvolvimento para o ecossistema Apple.
 
-## 📚 Conteúdo
+### 📚 Conteúdo
 
 O repositório está organizado por aulas e exercícios propostos/resolvidos.
 
