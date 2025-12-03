@@ -19,15 +19,16 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing:20){
-                Text("Login")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.blue)
-                Image(systemName: "square.and.arrow.down")
-                    .font(.largeTitle)
-                    .rotationEffect(.degrees(90))
-                    .foregroundColor(.blue)
-                    .padding(.bottom, 20)
+                HStack{
+                    Text("Login")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.blue)
+                    Image(systemName: "square.and.arrow.down")
+                        .font(.largeTitle)
+                        .rotationEffect(.degrees(-90))
+                        .foregroundColor(.blue)
+                }.padding(.bottom, 150)
                 TextField("username", text: $username)
                     .padding()
                     .background(Color.gray.opacity(0.1))
@@ -43,12 +44,13 @@ struct ContentView: View {
                     Text("Logar")
                         .font(.headline)
                         .foregroundColor(.white)
+                        .padding(.vertical, 15)
                         .frame(maxWidth: 280)
-                        .padding()
                         .background(Color.blue)
                         .cornerRadius(10)
-                }
-                .padding(.top, 10)                       
+                        
+                }.padding(.top, 10)
+                
             }.padding()
             
             .navigationDestination(isPresented: $isLoggedIn) {

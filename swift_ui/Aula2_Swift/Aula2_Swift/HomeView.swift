@@ -4,6 +4,7 @@
 //
 //  Created by Marcos Corazza on 12/3/25.
 //
+import SwiftUI
 
 struct HomeView: View {
     var usuario: String
@@ -22,11 +23,10 @@ struct HomeView: View {
             Text("Você está logado na área restrita.")
                 .foregroundColor(.gray)
         }
-        .navigationTitle("Home")
         .navigationBarBackButtonHidden(true)
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(usuario: "Teste")
 }
