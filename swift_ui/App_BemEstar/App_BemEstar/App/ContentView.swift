@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            
+            NavigationBar()
+            Features_Grid()            
         }
         .padding()
     }

@@ -16,10 +16,10 @@ struct FeatureType: View {
       Image(service.imagem)
           .resizable()
           .scaledToFit()
-          .cornerRadius(20)
+          .cornerRadius(8		)
           .fixedSize(horizontal: false, vertical: true)
       Text(service.nome)
-          .font(.system(.size:20))
+          .font(.system(size:16))
     }.frame(width: 80, height: 80)
   }
 }
