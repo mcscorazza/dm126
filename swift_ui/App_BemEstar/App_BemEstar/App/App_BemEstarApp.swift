@@ -2,7 +2,7 @@
 //  App_BemEstarApp.swift
 //  App_BemEstar
 //
-//  Created by user288580 on 12/3/25.
+//  Created by Marcos Corazza on 12/3/25.
 //
 
 import SwiftUI
