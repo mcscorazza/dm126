@@ -16,7 +16,7 @@ struct CarouselTabView: View {
         banner in CarouselItemView(banner: banner)
       }
     }
-    .frame(width: 300)
+    .frame(width: 300, height: 200)
     .tabViewStyle(.page(indexDisplayMode: .always))
   }
 }
