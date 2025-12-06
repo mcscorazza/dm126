@@ -19,8 +19,7 @@ let servicesMock:[ServiceType] = [
 let carouselMock:[ServiceType] = [
     ServiceType(id: 1, nome: "", imagem: "motivacional1"),
     ServiceType(id: 2, nome: "", imagem: "motivacional2"),
-    ServiceType(id: 3, nome: "", imagem: "motivacional3"),
-    ServiceType(id: 3, nome: "", imagem: "coffee"),
+    ServiceType(id: 3, nome: "", imagem: "motivacional3")
 ]
 
 let goalsMock:[GoalType] = [
@@ -29,8 +28,3 @@ let goalsMock:[GoalType] = [
     GoalType(id:3, icone: "goforward.60", titulo: "Redes Sociais", descricao: "Usar o celular por apenas 1h"),
 ]
 
-let usersMock:[LoginType] = [
-    LoginType(username: "Admin", password: "abc123"),
-    LoginType(username: "Corazza", password: "pass123"),
-    LoginType(username: "Maria", password: "mypass")
-]

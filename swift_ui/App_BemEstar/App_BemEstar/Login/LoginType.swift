@@ -8,19 +8,22 @@
 import Foundation
 import CryptoKit
 
-struct LoginType : Identifiable{
-    public var username:String
-    public var passwordHash:String
+struct LoginType: Identifiable {
 
-  init(username:String, password:String) {
-    self.username = username
-    self.passwordHash = LoginType.sha256(password) 
-  }
+    let id: Int
+    
+    public var username: String
+    public var passwordHash: String
 
-  public static func sha256(_ input: String) -> String {
-    let data = Data(input,utf8)
-    let digest = SHA256.hash(data: data)
-    return digest.map { String(format: "%02x", $0) }.joined()
-  }
+    init(id: Int, username: String, password: String) {
+        self.id = id
+        self.username = username
+        self.passwordHash = LoginType.sha256(password)
+    }
 
+    public static func sha256(_ input: String) -> String {
+        let data = Data(input.utf8)
+        let digest = SHA256.hash(data: data)
+        return digest.map { String(format: "%02x", $0) }.joined()
+    }
 }

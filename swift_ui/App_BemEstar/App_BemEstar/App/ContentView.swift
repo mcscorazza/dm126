@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var userManager: UserManager
+    
     var body: some View {
         VStack {
-            NavigationBar()
-            ScrollView(.vertical, showIndicators: false) {
+            NavigationBar(userManager: userManager)
+            ScrollView(.vertical, showsIndicators: false) {
                 VStack {
                     Features_Grid()
                     CarouselTabView()
@@ -19,10 +22,9 @@ struct ContentView: View {
                 }
             }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(userManager: UserManager())
 }

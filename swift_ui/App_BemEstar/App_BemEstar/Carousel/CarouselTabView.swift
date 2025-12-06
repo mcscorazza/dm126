@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct CarouselTabView: View {
-
-  let bannerList: [ServiceType]
-  var body: some View {
-    TabView{
-      ForEach(bannerList) {
-        banner in CarouselItemView(banner: banner)
-      }
+    let bannerList: [ServiceType] = carouselMock
+    var body: some View {
+        TabView {
+            ForEach(bannerList) {
+                banner in CarouselItemView(banner: banner)
+            }
+        }
+        .frame(width: 340, height: 340)
+        .tabViewStyle(.page(indexDisplayMode: .always))
     }
-    .frame(width: 300, height: 200)
-    .tabViewStyle(.page(indexDisplayMode: .always))
-  }
 }
 
-#Preview {	
-    CarouselTabView(banner: ServiceType(id: 1, nome: "", imagem: "motivacional1"),)
+#Preview {
+    CarouselTabView()
 }
-	

@@ -8,18 +8,17 @@
 import SwiftUI
 
 struct GoalContainer: View {
-  
-  let goalList: GoalType = goalsMock
-  var body: some View {
-    VStack(alignment: .leading){
-      ForEach(goalList){
-        goal in GoalListView(goal:goal)
-      }
+    
+    var body: some View {
+        VStack(alignment: .leading){
+            ForEach(goalsMock){
+                goal in GoalListView(goal:goal)
+            }
+        }.padding(.top,20)
     }
-  }
-
-
-#Preview {	
+ 
+}
+#Preview {
     GoalContainer()
 }
 	

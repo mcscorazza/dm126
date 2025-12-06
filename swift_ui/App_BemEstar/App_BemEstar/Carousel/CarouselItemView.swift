@@ -11,7 +11,7 @@ struct CarouselItemView: View {
 
   let banner:ServiceType  
   var body: some View {
-    Imagem(banner.imagem)
+    Image(banner.imagem)
       .resizable()
       .scaledToFit()
       .cornerRadius(8)

@@ -19,9 +19,9 @@ struct Features_Grid: View {
       ForEach(servicesMock) {
           service in FeatureType(service:service)
       }
-      }.frame(height:200)
-          .padding(.horizontal,15)
-          .padding(.top,15)
+      }.frame(height:220)
+          .padding(.horizontal,10)
+          .padding(.top,10)
   }
 }
 
