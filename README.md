@@ -7,7 +7,7 @@ Este repositório armazena os exercícios práticos e códigos desenvolvidos dur
 
 O repositório está organizado por aulas e exercícios propostos/resolvidos.
 
-### 🚀 Aula 1: Fundamentos da Linguagem Swift
+### 🚀 Aula 1: Fundamentos da Linguagem Swift [Exercicios](exercicios/exercicios_aula1)
 
 Resumo dos principais tópicos teóricos e práticos abordados no material introdutório da disciplina.
 
@@ -48,7 +48,7 @@ Resumo dos principais tópicos teóricos e práticos abordados no material intro
     * **Structs (Tipos de Valor)**: Quando atribuídas a uma nova variável, é criada uma cópia. Não possuem herança. Necessitam de `mutating` para alterar propriedades em métodos.
     * **Classes (Tipos de Referência)**: Quando atribuídas, compartilham a mesma instância na memória. Suportam **Herança**, **Polimorfismo** e **Sobrescrita (`override`)**.
 
-### 📱 Aula 2: Introdução ao SwiftUI (Tela de Login)
+### 📱 Aula 2: Introdução ao SwiftUI (Tela de Login) [App Aula2](swift_ui/Aula2_Swift)
 
 Primeiro contato com o desenvolvimento de interface gráfica utilizando o framework declarativo **SwiftUI**. O projeto prático consistiu na criação de uma tela de login.
 
@@ -65,6 +65,26 @@ Primeiro contato com o desenvolvimento de interface gráfica utilizando o framew
 * **Modificadores (Modifiers):**
     * Personalização visual encadeada (ex: `spacing:`, `.frame()`, `.textFieldStyle()`).
 
+### 🧘 Aulas 3 e 4: App Bem Estar (Home & Componentes) [App BemEstar](swift_ui/App_BemEstar)
+
+Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", acessada após o login. A aula focou na construção de interfaces complexas combinando diferentes estruturas de layout e consumo de dados simulados (Mocks).
+
+* **Navegação e Modais:**
+    * **NavigationBar**: Implementação de uma barra de navegação personalizada.
+    * **`.sheet`**: Uso de modificadores para apresentar telas modais (pop-ups) a partir da barra de navegação.
+
+* **Layout em Grid (Serviços):**
+    * **`LazyHGrid`**: Criação de um grid com rolagem horizontal.
+    * **`ForEach`**: Iteração sobre o mock de `services` para renderizar dinamicamente imagens e textos de cada serviço.
+
+* **Carrossel Interativo:**
+    * **`TabView`**: Implementação de um carrossel de imagens deslizante.
+    * Utilização de mocks de imagens para popular o carrossel visualmente.
+
+* **Lista de Metas Diárias:**
+    * Estrutura de lista customizada utilizando **`VStack`** combinada com **`ForEach`**.
+    * Renderização dos dados provenientes do mock de `metas`, criando containers visuais para cada item da lista.
+      
 ---
 
 ## ✒️ Autor
