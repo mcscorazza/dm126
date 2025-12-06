@@ -10,6 +10,6 @@ struct MovieType : Identifiable{
     var id:Int
     var image:String
     var title:String
-    var description:String
+    var year:Int
     var genre:String
 }
