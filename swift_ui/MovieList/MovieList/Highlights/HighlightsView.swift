@@ -15,11 +15,12 @@ struct HighlightsView: View {
             Text("Destaques")
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundStyle(.red)
+                .foregroundStyle(.orange)
                 .padding(.horizontal)
+            
             Rectangle()
                 .frame(height: 2)
-                .foregroundStyle(.white.opacity(0.5))
+                .foregroundStyle(.orange.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, 4)
 
@@ -28,10 +29,14 @@ struct HighlightsView: View {
                     HighlightItem(movie: movie)
                 }
             }
-            .frame(height: 200)
+            .frame(height: 240)
+            .padding(.top,-10)
             .tabViewStyle(.page(indexDisplayMode: .always))
             
-        }.padding(.top,20)
+        }
+        .frame(width: 395)
+        .padding(.top,10)
+        
     }
 }
 

@@ -9,18 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-            ZStack {
-                Color.black.opacity(0.9).ignoresSafeArea()
-                ScrollView(.vertical, showsIndicators: false) {
-                VStack {
 
-                    NavigationBar()
-                    HighlightsView()
-                    CategoriesView()
-                    //WishList()
+        ZStack {
+            Color.black.opacity(0.9).ignoresSafeArea()
+            VStack {
+                NavigationBar()
+
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack {
+                        HighlightsView()
+                        CategoriesView()
+                        //WishList()
+                    }
                 }
-                }.padding()
+            }
         }
 
     }

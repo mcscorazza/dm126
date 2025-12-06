@@ -10,35 +10,37 @@ import SwiftUI
 struct MovieCategoryList: View {
     let title: String
     let movies: [MovieType]
-
+    
     var body: some View {
         VStack(alignment: .leading) {
+            
             Text(title)
-                .font(.headline)
-                .foregroundStyle(.white)
+                .font(.title3)
+                .bold()
+                .foregroundStyle(.orange)
                 .padding(.horizontal)
-                .padding(.top, 10)
+                .padding(.bottom, -5)
             Rectangle()
-                .frame(height: 2)
-                .foregroundStyle(.white.opacity(0.5))
+                .frame(height: 1)
+                .foregroundStyle(.orange.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, 4)
 
             ScrollView(.horizontal, showsIndicators: false) {
-
                 LazyHStack(spacing: 15) {
-
                     ForEach(movies) { movie in
                         MovieCard(movie: movie)
                     }
-
                 }
+                .frame(height: 165)
                 .padding(.horizontal)
+                .padding(.top, -5)
+                .clipped()
             }
         }
     }
 }
 
-//#Preview {
-//    MovieCategoryList()
-//}
+#Preview {
+    MovieCategoryList(title: "Teste", movies:[MovieType(id: 1, image: "john_wick", title: "Teste", year: 2000, genre: "Teste")])
+}
