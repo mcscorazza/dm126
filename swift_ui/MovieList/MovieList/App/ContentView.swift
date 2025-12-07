@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    let blueGray = Color(red: 0.275	, green: 0.333, blue: 0.412)
     var body: some View {
 
         ZStack {
-            Color.white.opacity(0.9).ignoresSafeArea()
+            blueGray.ignoresSafeArea()
             VStack {
                 NavigationBar()
 
@@ -19,8 +20,8 @@ struct ContentView: View {
                     VStack {
                         HighlightsView()
                         CategoriesView()
-                        //WishList()
-                    }.padding(.horizontal)
+                        WishListView()
+                    }
                 }
             }
         }

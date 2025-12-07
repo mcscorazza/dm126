@@ -26,12 +26,13 @@ struct LoginView: View {
                     .rotationEffect(.degrees(60))
                     
                     .foregroundColor(.white.opacity(0.3))
-
                 VStack(spacing: 15) {
-                    Image("h_dragao")
+                    Image("ripa")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150, height: 150)
+                        .frame(width: 100, height: 100)
+                        .padding(.bottom, 20)
+                    Text("App MovieList").font(.title).fontWeight(.bold)
 
                     TextField("Username", text: $username)
                         .padding()

@@ -52,3 +52,11 @@ let highlightsMock: [MovieType] = [
     MovieType(id: 109, image: "h_gladiador2", title: "Gladiador 2", year: 2024, genre: "Épico"),
     MovieType(id: 110, image: "h_mickey", title: "Mickey 17", year: 2025, genre: "Ficção")
 ]
+
+let wishListMock: [MovieType] = [
+    MovieType(id: 1, image: "h_deadpool", title: "Deadpool & Wolverine", year: 2024, genre: "Comédia"),
+    MovieType(id: 2, image: "h_mickey", title: "Mickey 17", year: 2025, genre: "Ficção"),
+    MovieType(id: 3, image: "h_divertidamente", title: "Divertida Mente 2", year: 2024, genre: "Animação"),
+    MovieType(id: 4, image: "h_coringa", title: "Coringa: Delírio a Dois", year: 2024, genre: "Drama"),
+    MovieType(id: 5, image: "h_duna2", title: "Duna: Parte 2", year: 2024, genre: "Ficção"),
+]

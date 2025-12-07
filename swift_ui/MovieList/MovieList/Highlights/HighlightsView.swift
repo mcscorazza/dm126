@@ -15,7 +15,7 @@ struct HighlightsView: View {
             Text("Destaques")
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundStyle(.orange)
+                .foregroundStyle(.orange.opacity(0.8))
                 .padding(.horizontal)
             
             Rectangle()

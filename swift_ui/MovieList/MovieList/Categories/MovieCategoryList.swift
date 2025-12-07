@@ -13,7 +13,6 @@ struct MovieCategoryList: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            
             Text(title)
                 .font(.title3)
                 .bold()
@@ -38,6 +37,8 @@ struct MovieCategoryList: View {
                 .clipped()
             }
         }
+        .padding(10)
+        .background(.black.opacity(0.35))
     }
 }
 
