@@ -28,6 +28,7 @@ struct CategoriesView: View {
         .clipped()
         .frame(width: 395)
         .padding(.bottom, 20)
+        .padding(.top, 16)
     }
 }
 #Preview {

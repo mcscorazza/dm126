@@ -16,7 +16,7 @@ struct MovieCard: View {
                 .scaledToFit()
                 .cornerRadius(4)
                 .frame(height: 130)
-                .shadow(color: Color.white.opacity(0.5), radius: 2, x: 1, y: 1)
+                .shadow(color: Color.gray.opacity(0.5), radius: 2, x: 1, y: 1)
             Text(movie.title)
                 .font(.subheadline)
                 .fontWeight(.bold)

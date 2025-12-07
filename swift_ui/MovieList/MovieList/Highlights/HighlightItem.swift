@@ -38,7 +38,7 @@ struct HighlightItem: View {
                     .shadow(radius: 2)
             }
             .frame(width: 350, height: 230)
-            .shadow(color: Color.orange.opacity(0.5), radius: 2, x: 3, y: 3)
+            .shadow(color: Color.black.opacity(0.5), radius: 2, x: 3, y: 3)
             .padding(.horizontal, 8)
         }
 }
