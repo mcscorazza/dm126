@@ -38,7 +38,7 @@ struct MovieCategoryList: View {
             }
         }
         .padding(10)
-        .background(.black.opacity(0.35))
+        .background(.black.opacity(0.15))
     }
 }
 

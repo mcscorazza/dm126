@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    let blueGray = Color(red: 0.275	, green: 0.333, blue: 0.412)
+    @Binding var isLogged: Bool
+    let blueGray = Color(red: 0.275, green: 0.333, blue: 0.412)
     var body: some View {
 
         ZStack {
             blueGray.ignoresSafeArea()
-            VStack {
-                NavigationBar()
-
+            VStack(spacing:0) {
+                NavigationBar(isLogged: $isLogged)
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack {
                         HighlightsView()
@@ -27,8 +27,10 @@ struct ContentView: View {
         }
 
     }
+
+    
 }
 
 #Preview {
-    ContentView()
+    ContentView(isLogged: .constant(true))
 }

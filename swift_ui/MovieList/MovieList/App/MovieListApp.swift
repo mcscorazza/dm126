@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MovieListApp: App {
+    @State private var isUserLoggedIn: Bool = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isUserLoggedIn {
+                ContentView(isLogged: $isUserLoggedIn)
+                    .transition(.opacity)
+            } else {
+                LoginView(isLogged: $isUserLoggedIn)
+            }
         }
     }
 }
