@@ -86,7 +86,7 @@ Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", ace
     * Renderização dos dados provenientes do mock de `metas`, criando containers visuais para cada item da lista.
 
 
-### 🏆 Trabalho Final: App MovieList
+### 🏆 Trabalho Final: App [MovieList](swift_ui/MovieList)
 
 Desenvolvimento de um aplicativo completo de catálogo de filmes, consolidando todos os conhecimentos adquiridos na disciplina. 
 O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com foco em arquitetura de dados e interface imersiva.
