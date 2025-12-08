@@ -1,8 +1,8 @@
 //
 //  WishListItem.swift
-//  MovieList
+//  App_MovieList
 //
-//  Created by user288580 on 12/7/25.
+//  Created by Marcos Corazza on 12/7/25.
 //
 
 import SwiftUI

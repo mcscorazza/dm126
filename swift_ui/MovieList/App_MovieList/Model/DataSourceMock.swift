@@ -1,14 +1,13 @@
 //
 //  DataSourceMock.swift
-//  MovieList
+//  App_MovieList
 //
-//  Created by user288580 on 12/6/25.
+//  Created by Marcos Corazza on 12/6/25.
 //
 
 import Foundation
 
 let moviesMock: [MovieType] = [
-    // --- AÇÃO (8 Filmes) ---
     MovieType(id: 1, image: "john_wick", title: "John Wick 4", year: 2023, genre: "Ação"),
     MovieType(id: 2, image: "missao_impossivel", title: "Missão Impossível 7", year: 2023, genre: "Ação"),
     MovieType(id: 3, image: "resgate", title: "O Resgate 2", year: 2023, genre: "Ação"),
@@ -17,8 +16,6 @@ let moviesMock: [MovieType] = [
     MovieType(id: 6, image: "velozes", title: "Velozes e Furiosos 10", year: 2023, genre: "Ação"),
     MovieType(id: 7, image: "pantera", title: "Pantera Negra", year: 2022, genre: "Ação"),
     MovieType(id: 8, image: "avatar", title: "Avatar: O Caminho da Água", year: 2022, genre: "Ação"),
-
-    // --- COMÉDIA (8 Filmes) ---
     MovieType(id: 9, image: "barbie", title: "Barbie", year: 2023, genre: "Comédia"),
     MovieType(id: 10, image: "minha_mae", title: "Minha Mãe é uma Peça 3", year: 2019, genre: "Comédia"),
     MovieType(id: 11, image: "auto_compadecida", title: "O Auto da Compadecida 2", year: 2024, genre: "Comédia"),
@@ -27,8 +24,6 @@ let moviesMock: [MovieType] = [
     MovieType(id: 14, image: "jumanji", title: "Jumanji: Próxima Fase", year: 2019, genre: "Comédia"),
     MovieType(id: 15, image: "free_guy", title: "Free Guy", year: 2021, genre: "Comédia"),
     MovieType(id: 16, image: "cruella", title: "Cruella", year: 2021, genre: "Comédia"),
-
-    // --- DRAMA (8 Filmes) ---
     MovieType(id: 17, image: "oppenheimer", title: "Oppenheimer", year: 2023, genre: "Drama"),
     MovieType(id: 18, image: "baleia", title: "A Baleia", year: 2022, genre: "Drama"),
     MovieType(id: 19, image: "elvis", title: "Elvis", year: 2022, genre: "Drama"),

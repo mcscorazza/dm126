@@ -1,8 +1,8 @@
 //
 //  SignUpView.swift
-//  MovieList
+//  App_MovieList
 //
-//  Created by user288580 on 12/8/25.
+//  Created by Marcos Corazza on 12/8/25.
 //
 
 import SwiftUI

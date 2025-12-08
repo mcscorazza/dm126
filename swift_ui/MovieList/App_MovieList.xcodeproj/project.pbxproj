@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FC499A792EE4761E009C1D7D /* MovieList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC499A792EE4761E009C1D7D /* App_MovieList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_MovieList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC499A7B2EE4761E009C1D7D /* MovieList */ = {
+		FC499A7B2EE4761E009C1D7D /* App_MovieList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieList;
+			path = App_MovieList;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		FC499A702EE4761E009C1D7D = {
 			isa = PBXGroup;
 			children = (
-				FC499A7B2EE4761E009C1D7D /* MovieList */,
+				FC499A7B2EE4761E009C1D7D /* App_MovieList */,
 				FC499A7A2EE4761E009C1D7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		FC499A7A2EE4761E009C1D7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC499A792EE4761E009C1D7D /* MovieList.app */,
+				FC499A792EE4761E009C1D7D /* App_MovieList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC499A782EE4761E009C1D7D /* MovieList */ = {
+		FC499A782EE4761E009C1D7D /* App_MovieList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC499A872EE4761F009C1D7D /* Build configuration list for PBXNativeTarget "MovieList" */;
+			buildConfigurationList = FC499A872EE4761F009C1D7D /* Build configuration list for PBXNativeTarget "App_MovieList" */;
 			buildPhases = (
 				FC499A752EE4761E009C1D7D /* Sources */,
 				FC499A762EE4761E009C1D7D /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FC499A7B2EE4761E009C1D7D /* MovieList */,
+				FC499A7B2EE4761E009C1D7D /* App_MovieList */,
 			);
-			name = MovieList;
+			name = App_MovieList;
 			packageProductDependencies = (
 			);
 			productName = MovieList;
-			productReference = FC499A792EE4761E009C1D7D /* MovieList.app */;
+			productReference = FC499A792EE4761E009C1D7D /* App_MovieList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC499A742EE4761E009C1D7D /* Build configuration list for PBXProject "MovieList" */;
+			buildConfigurationList = FC499A742EE4761E009C1D7D /* Build configuration list for PBXProject "App_MovieList" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC499A782EE4761E009C1D7D /* MovieList */,
+				FC499A782EE4761E009C1D7D /* App_MovieList */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC499A742EE4761E009C1D7D /* Build configuration list for PBXProject "MovieList" */ = {
+		FC499A742EE4761E009C1D7D /* Build configuration list for PBXProject "App_MovieList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC499A852EE4761F009C1D7D /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC499A872EE4761F009C1D7D /* Build configuration list for PBXNativeTarget "MovieList" */ = {
+		FC499A872EE4761F009C1D7D /* Build configuration list for PBXNativeTarget "App_MovieList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC499A882EE4761F009C1D7D /* Debug */,
