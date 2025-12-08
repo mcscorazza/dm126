@@ -15,7 +15,7 @@ struct WishListItem: View {
                 .resizable()
                 .scaledToFit()
                 .frame(height: 25)
-                .foregroundStyle(.orange)
+                .foregroundStyle(.white.opacity(0.5))
             Image(movie.image)
                 .resizable()
                 .scaledToFit()

@@ -14,12 +14,12 @@ struct WishListView: View {
             Text("Lista para assistir:")
                 .font(.title3)
                 .fontWeight(.bold)
-                .foregroundStyle(.orange)
+                .foregroundStyle(.white.opacity(0.5))
                 .padding(.horizontal)
 
             Rectangle()
                 .frame(height: 1)
-                .foregroundStyle(.orange.opacity(0.5))
+                .foregroundStyle(.white.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, 4)
             ForEach(wishList) { movie in

@@ -27,8 +27,7 @@ struct ContentView: View {
         }
 
     }
-
-    
+   
 }
 
 #Preview {

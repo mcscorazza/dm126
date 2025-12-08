@@ -15,12 +15,12 @@ struct HighlightsView: View {
             Text("Destaques")
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundStyle(.orange.opacity(0.8))
+                .foregroundStyle(.white.opacity(0.8))
                 .padding(.horizontal)
             
             Rectangle()
                 .frame(height: 2)
-                .foregroundStyle(.orange.opacity(0.5))
+                .foregroundStyle(.white.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, 4)
 

@@ -16,12 +16,13 @@ struct MovieCategoryList: View {
             Text(title)
                 .font(.title3)
                 .bold()
-                .foregroundStyle(.orange)
+                .foregroundStyle(.white.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, -5)
+                .padding(.top, 10)
             Rectangle()
                 .frame(height: 1)
-                .foregroundStyle(.orange.opacity(0.5))
+                .foregroundStyle(.white.opacity(0.5))
                 .padding(.horizontal)
                 .padding(.bottom, 4)
 
@@ -32,12 +33,9 @@ struct MovieCategoryList: View {
                     }
                 }
                 .frame(height: 165)
-                .padding(.horizontal)
                 .padding(.top, -5)
-                .clipped()
-            }
+            }.padding(.horizontal)
         }
-        .padding(10)
         .background(.black.opacity(0.15))
     }
 }

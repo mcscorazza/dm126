@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct NavigationBar: View {
+    
     @Binding var isLogged: Bool
-
+    @ObservedObject var userManager = UserManager.shared
+    
     var body: some View {
         HStack {
             Image("ripa").resizable().scaledToFit().frame(width: 35, height: 35)
             Spacer()
-            Text("Marcos Corazza").font(.headline).fontWeight(.bold)
+            Text(userManager.currentUser?.username ?? "Visitante")
+                .font(.headline)
+                .fontWeight(.bold)
 
             Spacer()
             Menu {
-                Button(role: .destructive) {  // .destructive deixa o texto vermelho no iOS
+                Button(role: .destructive) {
                     logoutAction()
                 } label: {
                     HStack {
@@ -36,15 +40,17 @@ struct NavigationBar: View {
         }.padding(.horizontal, 30)
             .padding(.vertical, 10)
             .frame(maxWidth: .infinity)
-
-            .foregroundStyle(.red)
+            .foregroundStyle(.gray)
             .background(.black.opacity(0.7))
 
     }
 
     private func logoutAction() {
-        withAnimation { isLogged = false }
-    }
+            UserManager.shared.logout()
+            withAnimation {
+                isLogged = false
+            }
+        }
 }
 
 #Preview {

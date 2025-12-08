@@ -15,9 +15,10 @@ struct LoginView: View {
 
     @State private var username: String = ""
     @State private var password: String = ""
-    @State private var showAlert: Bool = false
     @State private var wrongUser: CGFloat = 0
     @State private var wrongPass: CGFloat = 0
+    
+    @State private var showSignUpModal: Bool = false
     
     @State private var newUser: String = ""
     @State private var newPass: String = ""
@@ -77,55 +78,42 @@ struct LoginView: View {
                     }
                     .padding(.top, 10)
 
-                    Button(action: {showAlert = true}) {
+                    Button(action: {showSignUpModal = true}) {
                         HStack {
                             Text("Adicionar Novo").font(.title3)
-                                .foregroundStyle(.gray)
+                                .foregroundStyle(.white.opacity(0.8))
 
                             Image(systemName: "person.badge.plus.fill")
                                 .font(.title3)
                                 .foregroundStyle(.gray)
                         }.padding(10)
-                            .background(.black.opacity(0.25))
+                            .background(.black.opacity(0.35))
                             .cornerRadius(4)
-                    }.sheet(isPresented: $showAlert) {
-                        VStack {
-                            Text("Adicionar novo usuário")
-                                .font(.headline)
-                                .padding(.bottom, 10)
-                            
-                            TextField("Digite o nome...",text: $newUser)
-                                .frame(maxWidth: 280)
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                                .textInputAutocapitalization(.never)
-                            
-                            SecureField("Digite a senha...", text: $newPass)
-                                .frame(maxWidth: 280)
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                        }.presentationDetents([.fraction(0.35)])
-                            .padding()
-                            
-                    }.background(.black.opacity(0.5))
+                    }
+                    .padding(.top,80)
+                    .sheet(isPresented: $showSignUpModal) {
+                        SignUpView()
+                            .presentationDetents([.fraction(0.35)])
+                    }
                 }
             }
         }
     }
-    private func performLogin() {
-        wrongUser = 0
-        wrongPass = 0
-        if username == "Admin" && password == "1234" {
-            print("Login realizado com sucesso")
-            withAnimation {
-                isLogged = true
-            }
-        } else {
-            print("Erro de login")
-            withAnimation {
-                if username != "admin" { wrongUser = 2 }
-                if password != "1234" { wrongPass = 2 }
+    func performLogin() {
+            wrongUser = 0
+            wrongPass = 0
+            if UserManager.shared.authenticate(username: username, pass: password) {
+                withAnimation {
+                    isLogged = true
+                }
+                
+            } else {
+                withAnimation {
+                    wrongUser = 2
+                    wrongPass = 2
+                }
             }
         }
-    }
 
 }
 
