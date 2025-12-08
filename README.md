@@ -69,7 +69,7 @@ Primeiro contato com o desenvolvimento de interface gráfica utilizando o framew
 
 | Login | Home |
 |:---:|:---:|
-|<img src="screens/App_Aula2/login.png" height="300">|<img src="screens/App_Aula2/home.png" height="300">|
+|<img src="screens/App_Aula2/login.png" height="350">|<img src="screens/App_Aula2/home.png" height="350">|
 
 ## 🧘 Aulas 3 e 4: App Bem Estar (Home & Componentes) [App BemEstar](swift_ui/App_BemEstar)
 
@@ -95,7 +95,7 @@ Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", ace
 
 | Login | ContentView | Modal | Menu |
 |:---:|:---:|:---:|:---:|
-|<img src="screens/App_BemEstar/login.png" height="300">|<img src="screens/App_BemEstar/contentview_01.png" height="300">|<img src="screens/App_BemEstar/contentview_02.png" height="300">|<img src="screens/App_BemEstar/contentview_04.png" height="300">|
+|<img src="screens/App_BemEstar/login.png" height="350">|<img src="screens/App_BemEstar/contentview_01.png" height="350">|<img src="screens/App_BemEstar/contentview_02.png" height="350">|<img src="screens/App_BemEstar/contentview_04.png" height="350">|
 
 ## 🏆 Trabalho Final: App [MovieList](swift_ui/App_MovieList)
 
@@ -122,7 +122,7 @@ O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com 
 
 | Login | Login Error | Modal Sign Up | ContentView | ContentView | Logout |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|<img src="screens/App_MovieList/login.png" height="250">|<img src="screens/App_MovieList/loginerror.png" height="250">|<img src="screens/App_MovieList/signup.png" height="250">|<img src="screens/App_MovieList/contentview01.png" height="250">|<img src="screens/App_MovieList/contentview02.png" height="250">|<img src="screens/App_MovieList/logout.png" height="250">|
+|<img src="screens/App_MovieList/login.png" height="280">|<img src="screens/App_MovieList/loginerror.png" height="280">|<img src="screens/App_MovieList/signup.png" height="280">|<img src="screens/App_MovieList/contentview01.png" height="280">|<img src="screens/App_MovieList/contentview02.png" height="280">|<img src="screens/App_MovieList/logout.png" height="280">|
 
 ---
 
