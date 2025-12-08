@@ -64,6 +64,12 @@ Primeiro contato com o desenvolvimento de interface gráfica utilizando o framew
 
 * **Modificadores (Modifiers):**
     * Personalização visual encadeada (ex: `spacing:`, `.frame()`, `.textFieldStyle()`).
+ 
+#### 📸 Screenshots
+
+| Login | Home |
+|:---:|:---:|
+|![Login](screens/App_Aula2/login.png)|![Home](screens/App_Aula2/home.png)|
 
 ### 🧘 Aulas 3 e 4: App Bem Estar (Home & Componentes) [App BemEstar](swift_ui/App_BemEstar)
 
@@ -85,8 +91,13 @@ Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", ace
     * Estrutura de lista customizada utilizando **`VStack`** combinada com **`ForEach`**.
     * Renderização dos dados provenientes do mock de `metas`, criando containers visuais para cada item da lista.
 
+#### 📸 Screenshots
 
-### 🏆 Trabalho Final: App [MovieList](swift_ui/MovieList)
+| Login | ContentView | Modal | Menu |
+|:---:|:---:|:---:|:---:|
+|![Login](screens/App_BemEstar/login.png)|![ContentView](screens/App_BemEstar/contentview_01.png)|![Modal](screens/App_BemEstar/contentview_02.png)|![Menu](screens/App_BemEstar/contentview_03.png)|
+
+### 🏆 Trabalho Final: App [MovieList](swift_ui/App_MovieList)
 
 Desenvolvimento de um aplicativo completo de catálogo de filmes, consolidando todos os conhecimentos adquiridos na disciplina. 
 O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com foco em arquitetura de dados e interface imersiva.
@@ -106,6 +117,17 @@ O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com 
     * Arquitetura modular dividida em microsserviços visuais (`MovieCard` → `CategoryRow` → `HomeView`).
     * **Custom NavigationBar:** Barra de topo personalizada exibindo dinamicamente o nome do usuário logado e menu de Logout.
     * Uso avançado de **@Binding** para transição de estados entre a tela de Login e a Home (Root View Switching).
+
+#### 📸 Screenshots App MovieList
+
+| Login | Login Error | Modal Sign Up |
+|:---:|:---:|:---:|
+|![Login](screens/App_MovieList/login.png)|![Login Error](screens/App_MovieList/loginerror.png)|![Sign Up Modal](screens/App_MovieList/signup.png)|
+
+| ContentView | ContentView | Logout |
+|:---:|:---:|:---:|
+|![Content View 01](screens/App_MovieList/contentview01.png)|![Content View 02](screens/App_MovieList/contentview02.png)|![Logout](screens/App_MovieList/logout.png)|
+
 ---
 
 ## ✒️ Autor
