@@ -95,7 +95,7 @@ Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", ace
 
 | Login | ContentView | Modal | Menu |
 |:---:|:---:|:---:|:---:|
-|<img src="screens/App_BemEstar/login.png" height="300">|<img src="screens/App_BemEstar/contentview_01.png" height="300">|<img src="screens/App_BemEstar/contentview_02.png" height="300">|<img src="screens/App_BemEstar/contentview_03.png" height="300">|
+|<img src="screens/App_BemEstar/login.png" height="300">|<img src="screens/App_BemEstar/contentview_01.png" height="300">|<img src="screens/App_BemEstar/contentview_02.png" height="300">|<img src="screens/App_BemEstar/contentview_04.png" height="300">|
 
 ## 🏆 Trabalho Final: App [MovieList](swift_ui/App_MovieList)
 
