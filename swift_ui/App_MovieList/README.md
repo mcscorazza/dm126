@@ -23,7 +23,7 @@ O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com 
 
 | Login | Login Error | Modal Sign Up | ContentView | ContentView | Logout |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|<img src="screens/App_MovieList/login.png" height="280">|<img src="screens/App_MovieList/loginerror.png" height="280">|<img src="screens/App_MovieList/signup.png" height="280">|<img src="screens/App_MovieList/contentview01.png" height="280">|<img src="screens/App_MovieList/contentview02.png" height="280">|<img src="screens/App_MovieList/logout.png" height="280">|
+|<img src="/screens/App_MovieList/login.png" height="280">|<img src="/screens/App_MovieList/loginerror.png" height="280">|<img src="/screens/App_MovieList/signup.png" height="280">|<img src="/screens/App_MovieList/contentview01.png" height="280">|<img src="/screens/App_MovieList/contentview02.png" height="280">|<img src="/screens/App_MovieList/logout.png" height="280">|
 
 ---
 
