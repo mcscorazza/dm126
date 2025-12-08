@@ -69,7 +69,7 @@ Primeiro contato com o desenvolvimento de interface gráfica utilizando o framew
 
 | Login | Home |
 |:---:|:---:|
-|![Login](screens/App_Aula2/login.png)|![Home](screens/App_Aula2/home.png)|
+|<img src="screens/App_Aula2/login.png" height="300">|<img src="screens/App_Aula2/home.png" height="300">|
 
 ### 🧘 Aulas 3 e 4: App Bem Estar (Home & Componentes) [App BemEstar](swift_ui/App_BemEstar)
 
@@ -95,7 +95,7 @@ Desenvolvimento da tela principal (`ContentView`) do aplicativo "Bem Estar", ace
 
 | Login | ContentView | Modal | Menu |
 |:---:|:---:|:---:|:---:|
-|![Login](screens/App_BemEstar/login.png)|![ContentView](screens/App_BemEstar/contentview_01.png)|![Modal](screens/App_BemEstar/contentview_02.png)|![Menu](screens/App_BemEstar/contentview_03.png)|
+|<img src="screens/App_BemEstar/login.png" height="300">|<img src="screens/App_BemEstar/contentview_01.png" height="300">|<img src="screens/App_BemEstar/contentview_02.png" height="300">|<img src="screens/App_BemEstar/contentview_03.png" height="300">|
 
 ### 🏆 Trabalho Final: App [MovieList](swift_ui/App_MovieList)
 
@@ -122,11 +122,11 @@ O projeto simula uma experiência de streaming (estilo Netflix/Prime Video) com 
 
 | Login | Login Error | Modal Sign Up |
 |:---:|:---:|:---:|
-|![Login](screens/App_MovieList/login.png)|![Login Error](screens/App_MovieList/loginerror.png)|![Sign Up Modal](screens/App_MovieList/signup.png)|
+|<img src="screens/App_MovieList/login.png" height="300">|<img src="screens/App_MovieList/loginerror.png" height="300">|<img src="screens/App_MovieList/signup.png" height="300">|
 
 | ContentView | ContentView | Logout |
 |:---:|:---:|:---:|
-|![Content View 01](screens/App_MovieList/contentview01.png)|![Content View 02](screens/App_MovieList/contentview02.png)|![Logout](screens/App_MovieList/logout.png)|
+|<img src="screens/App_MovieList/contentview01.png" height="300">|<img src="screens/App_MovieList/contentview02.png" height="300">|<img src="screens/App_MovieList/logout.png" height="300">|
 
 ---
 
