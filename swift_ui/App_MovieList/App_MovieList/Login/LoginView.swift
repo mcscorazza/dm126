@@ -10,8 +10,6 @@ import SwiftUI
 struct LoginView: View {
 
     @Binding var isLogged: Bool
-    
-    
 
     @State private var username: String = ""
     @State private var password: String = ""
